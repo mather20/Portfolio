@@ -1,0 +1,107 @@
+
+
+
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(244, 244, 250);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(153, 15, 15);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: #118d8d;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 40px;
+}
+
+.navigation a:hover {
+    color: brown;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: rgb(36, 91, 139);
+    font-size: 2em;
+    font-weight: 500;
+}   
+
+.main h3 {
+    display: block;
+    color: rgb(74, 74, 241);
+    font-size: 1.5em;
+
+}
+
+
+.project .content{
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    bottom: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transform: 0.7s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-image img{
+    width: 100%
+}
+
+
+.project-info{
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color:black
+}
